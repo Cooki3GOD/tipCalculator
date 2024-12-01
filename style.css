@@ -43,6 +43,7 @@ h1 {
     width: 80%;
     height: 50px;
     background-color: hsl(189, 41%, 97%);
+    font-size: 30px;
 }
 h5 {
     font-weight: normal;
@@ -67,11 +68,67 @@ h5 {
     font-size: 20px;
     cursor: pointer;
 }
+.buttonContainer > div:hover {
+    transform: scale(1,1.1);
+}
 #own {
     border-radius: 6px;
+    width: 90%;
     border: none;
     font-size: 20px;
     text-align: center;
     color: hsl(185, 41%, 84%);
     background-color: hsl(189, 41%, 97%);
+}
+.left section {
+    margin-top: 30px;
+}
+.right {
+    background-color: hsl(183, 100%, 15%);
+    width: 50%;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+.leftCont > h2 {
+    color: white;
+}
+.leftCont > p {
+    color: hsl(186, 14%, 43%);
+}
+.rightCont {
+    display: flex;
+    font-size: 25px;
+    color: hsl(172, 67%, 45%);
+}
+.buttons {
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttons button {
+    padding: 10px;
+    border: none;
+    color: hsl(186, 14%, 43%);
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background-color: hsl(184, 14%, 56%);
+    font-weight: bold;
+}
+.buttons button:hover {
+    color: black;
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    cursor: pointer;
 }

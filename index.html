@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <h1>SPLI
@@ -20,13 +21,14 @@
                 <div>5 %</div>
                 <div>10 %</div>
                 <div>15 %</div>
-                <hr>
                 <div>25 %</div>
                 <div>50 %</div>
                 <input type="text" name="own" id="own" placeholder="WŁASNY">
             </div>
-            <label for="people">Liczba osób</label>
-            <input type="text" name="people" id="people" placeholder="0">
+            <section>
+                <label for="people">Liczba osób</label>
+                <input type="text" name="people" id="people" placeholder="0">
+            </section>
         </div>
         <div class="right">
             <div class="container">
@@ -47,9 +49,12 @@
                     <h3>0,00 zł</h3>
                 </div>
             </div>
-            <button>Calculate</button>
-            <button>Reset</button>
-        </div>
+            <div class="buttons">
+                <button>Calculate</button>
+                <button>Reset</button>
+            </div>
+            </div>
+            
     </div>
     <script src="script.js"></script>
 </body>
